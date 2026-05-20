@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this project for academic reference, please cite it as below."
+title: "LiteRaceSegNet-V13-Portal: Lightweight Boundary-Guided Road-Damage Segmentation"
+authors:
+  - family-names: "Kim"
+    given-names: "Wonseok"
+year: 2026
+repository-code: "https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal"
+license: "portfolio-viewing-only"
+keywords:
+  - semantic segmentation
+  - road damage
+  - lightweight cnn
+  - boundary-aware segmentation
+  - edge ai
