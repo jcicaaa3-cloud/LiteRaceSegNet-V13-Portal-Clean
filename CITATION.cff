@@ -5,7 +5,7 @@ authors:
   - family-names: "Kim"
     given-names: "Wonseok"
 year: 2026
-repository-code: "https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal"
+repository-code: "https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean"
 license: "portfolio-viewing-only"
 keywords:
   - semantic segmentation

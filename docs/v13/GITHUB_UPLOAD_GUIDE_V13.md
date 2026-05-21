@@ -5,7 +5,7 @@ git init
 git add .
 git commit -m "Release LiteRaceSegNet V13 evidence portal"
 git branch -M main
-git remote add origin https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal.git
+git remote add origin https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean.git
 git push -u origin main
 ```
 

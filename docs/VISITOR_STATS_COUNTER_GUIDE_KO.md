@@ -1,16 +1,33 @@
-# Visitor statistics counter guide
+# 방문 통계 카운터 안내
 
-이 패키지에는 정적 GitHub Pages에서 동작하는 간단한 방문 통계 기능이 추가되어 있습니다.
+이 패키지는 GitHub Pages에서 바로 동작하도록 `assets/visitor-stats.js`를 추가했습니다.
 
-## 사이트에서 집계하는 항목
+## 집계 항목
 
-- 사이트 누적 방문 수: 모든 HTML 페이지 로드 횟수
-- 방문자 수: 같은 브라우저에서는 한 번만 집계하는 localStorage 기반 rough unique count
-- 현재 페이지 방문 수: 현재 HTML 페이지별 로드 횟수
-- GitHub 이동 수: 사이트 안에서 GitHub 링크를 클릭한 횟수
+- 사이트 누적 방문
+- 같은 브라우저 기준 방문자 수 보정
+- 현재 페이지 방문
+- GitHub 저장소 이동 클릭
 
-카운터는 `assets/visitor-stats.js`에서 관리하며, CounterAPI v1 public endpoint를 사용합니다. 외부 API가 차단된 환경에서는 숫자 대신 대기 상태가 보일 수 있습니다.
+## 저장소 URL
 
-## GitHub 저장소 카운트
+모든 사이트 내 GitHub 링크는 아래 저장소로 맞췄습니다.
 
-`README.md`와 `README_JA.md` 상단에는 GitHub 저장소 페이지에서 보이는 조회수 배지가 추가되어 있습니다. GitHub의 공식 repository views/clones 최종 통계는 저장소의 `Insights -> Traffic`에서 확인합니다.
+```text
+https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean
+```
+
+## 동작 방식
+
+- 먼저 브라우저 localStorage 기준 임시 수치를 즉시 표시합니다. 그래서 `...` 상태로 멈추지 않습니다.
+- 이후 CounterAPI v1 public counter에 연결되면 실시간 누적 수치로 자동 교체됩니다.
+- 외부 카운터가 네트워크, CORS, 회사/학교망 정책 등으로 막히면 패널은 주황색 상태로 남고 브라우저 기준 수치를 표시합니다.
+- GitHub 저장소 자체의 공식 views/clones는 GitHub Repository Insights → Traffic에서 확인합니다. 공개 페이지에서는 사이트에서 GitHub로 이동한 클릭 수를 함께 집계합니다.
+
+## 수정 파일
+
+- `assets/visitor-stats.js`
+- `index.html`
+- `pages/*.html`
+- `README.md`
+- `README_JA.md`

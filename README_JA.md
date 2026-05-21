@@ -1,3 +1,6 @@
+[![Repository views](https://hits.sh/github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean.svg?style=flat-square&label=repo%20views)](https://hits.sh/github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean/)
+[![Site visits](https://hits.sh/jcicaaa3-cloud.github.io/LiteRaceSegNet-V13-Portal-Clean.svg?style=flat-square&label=site%20visits)](https://hits.sh/jcicaaa3-cloud.github.io/LiteRaceSegNet-V13-Portal-Clean/)
+
 # LiteRaceSegNet-V13 Research Portal
 
 LiteRaceSegNet-V13 は、AWS 実験結果を反映した GitHub Pages 用の研究ポートフォリオです。軽量 segmentation model の構造差、閾値、境界、case split を evidence として整理し、静的サイトで読みやすくまとめています。

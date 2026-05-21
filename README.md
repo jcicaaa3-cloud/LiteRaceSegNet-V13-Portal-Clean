@@ -1,3 +1,6 @@
+[![Repository views](https://hits.sh/github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean.svg?style=flat-square&label=repo%20views)](https://hits.sh/github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean/)
+[![Site visits](https://hits.sh/jcicaaa3-cloud.github.io/LiteRaceSegNet-V13-Portal-Clean.svg?style=flat-square&label=site%20visits)](https://hits.sh/jcicaaa3-cloud.github.io/LiteRaceSegNet-V13-Portal-Clean/)
+
 # LiteRaceSegNet-V13 Research Portal
 
 LiteRaceSegNet-V13 is a GitHub Pages-ready research portfolio built from the AWS experiment package generated for LiteRaceSegNet. It brings the model structure, ablation table, threshold setting, boundary-local metrics, visual sheets, and release scope into one static site.
